@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    >
+
+    <!--
+    <CheckBox
+        android:id="@+id/kotlin"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:checked="true"
+        android:text="코틀린"
+        />
+
+    <CheckBox
+        android:id="@+id/java"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="자바"
+        />
+
+    <CheckBox
+        android:id="@+id/python"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="파이썬"
+        />
+        -->
+
+    <!--
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="true"/>
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="false"/>
+
+    <ToggleButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="true"/>
+
+    <ToggleButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="false"/>
+    -->
+
+    <!--
+    <RadioGroup
+        android:id="@+id/radGroup1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/radio1"
+            android:text="남 성"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            />
+        <RadioButton
+            android:id="@+id/radio2"
+            android:text="여 성"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+    </RadioGroup>
+    -->
+
+    <CheckBox
+        android:id="@+id/chk1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="선택을 시작합니다."
+        android:textSize="25dp"
+        />
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="좋아하는 동물은?"
+        android:textSize="25dp"
+        android:visibility="invisible"
+        />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/radGroup1"
+        android:visibility="invisible"
+        >
+        <RadioButton
+            android:id="@+id/rdoDog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="강아지"
+            />
+
+        <RadioButton
+            android:id="@+id/rdoCat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="고양이"
+            />
+
+        <RadioButton
+            android:id="@+id/rdoBird"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="새"
+            />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnOk"
+        android:text="완 료"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        />
+
+    <ImageView
+        android:id="@+id/imgAni"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"/>
+</LinearLayout>
